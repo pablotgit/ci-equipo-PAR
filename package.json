@@ -1,0 +1,21 @@
+{
+  "name": "ci-equipo-par",
+  "version": "1.0.0",
+  "description": "Repositorio para tarea colaborativa \"Automatización de CI con GitHub Actions en un Proyecto Multilenguaje\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablotgit/ci-equipo-PAR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pablotgit/ci-equipo-PAR/issues"
+  },
+  "homepage": "https://github.com/pablotgit/ci-equipo-PAR#readme"
+}
