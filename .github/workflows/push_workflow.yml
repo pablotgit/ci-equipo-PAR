@@ -1,0 +1,12 @@
+name: Push Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensaje
+        run: echo "Workflow activado por push"
