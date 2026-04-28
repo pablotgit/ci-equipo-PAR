@@ -2,6 +2,7 @@ const readline = require('readline');
 const suma = require('./suma');
 const resta = require('./resta');
 const multiplicacion = require('./multiplicacion');
+const division = require('./division');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -32,6 +33,7 @@ rl.question('Ingresá el primer número: ', (input1) => {
     console.log(`Suma ${num1} + ${num2} =`, suma(num1, num2));
     console.log(`Resta ${num1} - ${num2} =`, resta(num1, num2));
     console.log(`Multiplicación ${num1} * ${num2} =`, multiplicacion(num1, num2));
+    console.log(`División ${num1} / ${num2} =`, division(num1, num2));
 
     rl.close();
   });
