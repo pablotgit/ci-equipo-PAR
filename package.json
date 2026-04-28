@@ -4,7 +4,7 @@
   "description": "Repositorio para tarea colaborativa \"Automatización de CI con GitHub Actions en un Proyecto Multilenguaje\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pablotgit/ci-equipo-PAR/issues"
   },
-  "homepage": "https://github.com/pablotgit/ci-equipo-PAR#readme"
+  "homepage": "https://github.com/pablotgit/ci-equipo-PAR#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
 }
