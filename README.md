@@ -26,6 +26,3 @@ node src/index.js
 
 npm test
 
-## Estado del build
-
-![CI](https://github.com/TU-USUARIO/ci-equipo-1/actions/workflows/ci.yml/badge.svg)
